@@ -6,8 +6,7 @@
   "regions": ["iad1"],
   "functions": {
     "tourbazz_bd/wsgi.py": {
-      "maxDuration": 30,
-      "runtime": "python@3.11"
+      "maxDuration": 30
     }
   },
   "routes": [
