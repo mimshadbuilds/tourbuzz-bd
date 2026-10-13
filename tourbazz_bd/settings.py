@@ -156,6 +156,8 @@ if os.environ.get('CLOUDINARY_URL'):
     DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
     CLOUDINARY_STORAGE = {
         'CLOUDINARY_URL': os.environ.get('CLOUDINARY_URL'),
+        'unique_filename': False,
+        'overwrite': True,
     }
 else:
     # Local development - use local filesystem
