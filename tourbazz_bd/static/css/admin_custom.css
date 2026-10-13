@@ -189,11 +189,16 @@ a:hover {
 }
 
 .dashboard .module table th a {
-    color: var(--admin-ink);
+    color: #fff;
+}
+
+.dashboard .module table th {
+    background: var(--admin-plum-dark);
+    color: #fff;
 }
 
 .dashboard .module table th a:hover {
-    color: var(--admin-plum);
+    color: #ffc56e;
 }
 
 .dashboard .module table td a {
