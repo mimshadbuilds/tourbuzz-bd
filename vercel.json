@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pip install setuptools>=68.0.0 && pip install -r requirements.txt && python manage.py migrate --noinput && python manage.py collectstatic --noinput",
+  "buildCommand": "pip install setuptools>=68.0.0 && pip install -r requirements.txt && python manage.py migrate --noinput && python manage.py loaddata initial_data.json && python manage.py collectstatic --noinput",
   "devCommand": "python manage.py runserver",
   "installCommand": "pip install setuptools>=68.0.0 && pip install -r requirements.txt",
   "framework": "django",

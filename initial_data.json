@@ -1,0 +1,383 @@
+[
+{
+  "model": "blog.category",
+  "pk": 1,
+  "fields": {
+    "title": "Travel",
+    "created_at": "2020-03-22T16:23:19.000Z",
+    "updated_at": "2020-03-22T16:23:19.000Z"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 2,
+  "fields": {
+    "title": "Lifestyle & Travel",
+    "created_at": "2020-03-26T15:13:04.096Z",
+    "updated_at": "2020-03-26T15:13:08.858Z"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 3,
+  "fields": {
+    "title": "Exotic Destinations",
+    "created_at": "2020-03-26T15:13:29.720Z",
+    "updated_at": "2020-03-26T15:13:29.720Z"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 4,
+  "fields": {
+    "title": "Historical Place",
+    "created_at": "2020-03-26T15:35:46.055Z",
+    "updated_at": "2020-03-26T15:35:46.055Z"
+  }
+},
+{
+  "model": "blog.package",
+  "pk": 2,
+  "fields": {
+    "name": "Kuakata Tour",
+    "description": "Kuakata is one of the rarest places to see the full view of both sunrise and sunset from the same place or same position. For that reason it makes Kuakata one of the world’s unique beaches. Kuakata has a wide sandy beach. The Kuakata beach is about 30 kilometer long and 6 kilometer wide sandy beach. Kuakata is the only beach in the world where travelers can enjoy sunrise and sunset view from the same beach.",
+    "category": 1,
+    "created_at": "2020-03-26T15:20:44.937Z",
+    "updated_at": "2020-03-28T07:45:08.108Z",
+    "From": "Dhaka",
+    "to": "Borguna district, Barisal",
+    "price": 4500,
+    "price_details": "Day 00 : Dhaka–Kuakata:\r\nDeparture for Kuakata by bus at 20:00hrs, Overnight bus journey.\r\nDay 01 : Kuakata:\r\nArrive early in the morning 07:00hrs. Check in hotel & take breakfast, Enjoy yourself.\r\nOvernight at hotel.\r\nDay 02 : Kuakata :\r\nEarly morning visit Gongamoti chor & enjoy the sun rising.(Self) Take breakfast, In the evening visit Buddist temple.(Self) Overnight stay.\r\nDay 03 : Kuakata-Dhaka :\r\nAfter breakfast enjoy free time. Start for back Dhaka at 1900hrs. After breakfast enjoy free time.\r\nDay 00 : Dhaka :\r\nArrive Dhaka Back to your sweet home End of the trip.\r\n\r\n\r\nThe name Kuakata originated from the word Kua English word “Well” dug on the sea shore by the early Rakhine settlers in quest of collecting drinking water, who landed on Kuakata coast after getting expelled from the Arakan (Myanmar) by Moughals. Afterwards, it has become a tradition of digging Kua-Well in the neighborhood of Rakhaine tribes for water.\r\n\r\nJhaubon is very beautiful place at Kuakata. Jhau bon is close to the sea beach. Jhau forest is created by Government initiative. Tourist or traveler can visit there by walking. Jhau bon is surrounded by many Jhau trees and coconut trees. This place is better to see the sun rise scenery at Kuakata. There is a nice Eco park at Jhaubon area of Kuakata.\r\n\r\nNarikel Bagan (Coconut Garden) is the nice place to visit for Kuakata travelers. It is situated at the eastern side of the sea beach. It is not very far distance from Kuakata beach. So traveler can reach there easily by walking. According to the local people these coconut garden is more than 40 years old. There are lots of coconut trees in that area.\r\n\r\n02 nights double sharing accommodation at Hotel Kuakata Inn. or BPC Motel at Kuakata.02 Breakfast at hotel.Local Trained guide.",
+    "location": "Barisal",
+    "day": "2",
+    "date": "2020-03-28T07:45:08.108Z",
+    "star": 4,
+    "best": true,
+    "main_photo": "static/images/cover-25.jpg",
+    "photo_1": "static/images/depositphotos_195430468-stock-photo-bicycle-vendor-waiting-costumers-kuakata.jpg",
+    "photo_2": "static/images/Kuakata_beach.jpg",
+    "photo_3": "static/images/Kuakata_Eco-Park.jpg",
+    "photo_4": "static/images/sun-rise-at-kuakata.jpg",
+    "photo_5": "",
+    "photo_6": "",
+    "created_by": 1
+  }
+},
+{
+  "model": "blog.package",
+  "pk": 3,
+  "fields": {
+    "name": "গোলাপ গ্রাম",
+    "description": "নদী পথ পার হয়ে ছোট্ট একটি গ্রাম। তবে গ্রাম হলেও পুরোটাই গোলাপের বাগান দিয়ে পরিপূর্ণ । এখানে গেলে আপনার মনে হবে যেন বিশাল একটি গোলাপের বাগানে ভেতর আপনি ঘুরছেন। সরু পথ দিয়ে হাঁটতে হাঁটতে দেখবেন রাস্তার দুপাশ গোলাপের বাগান দিয়ে ঘেরা।",
+    "category": 2,
+    "created_at": "2020-03-26T15:31:09.355Z",
+    "updated_at": "2020-03-26T18:39:03.386Z",
+    "From": "ঢাকা",
+    "to": "সাদুল্লাহপুর",
+    "price": 500,
+    "price_details": "আপনি ঢাকার যেখানে থাকেন না কেনো সবার প্রথমে আপনাকে বাইক নিয়ে মিরপুর দিয়াবাড়ি বটতলা ঘাট আসতে হবে। সেখান থেকে আপনি আপনার বাইক বোটে করে নিয়ে গোলাপ গ্রাম যেতে পারবেন। মিরপুর দিয়াবাড়ি বটতলা ঘাট থেকে সাহদুল্লাহপুর ঘাটের উদ্দেশ্যে ৩০ মিনিট পরপর ইঞ্জিনচালিত বোট ছাড়ে। সাহদুল্লাহপুর যেতে যেতে ৪৫ মিনিট- ১ ঘণ্টা লাগবে। কিন্তু যদি আপনি বোটে করে না যেতে চান তাহলে,\r\n\r\nউত্তরার হাউজ বিল্ডিং এলাকার নর্থ টাওয়ারের কাছে এসে সেখান থেকে দিয়াবাড়ি আসতে হবে। সেখান থেকে মেইনরোডে এগিয়ে বিরুলিয়া ব্রিজ পর্যন্ত গিয়ে চলে আসুন সাদুল্লাহপুর গোলাপ গ্রামে।",
+    "location": "dhaka",
+    "day": "1 day",
+    "date": "2020-03-26T18:39:03.386Z",
+    "star": 5,
+    "best": true,
+    "main_photo": "static/images/20200226_150148.jpg",
+    "photo_1": "static/images/Kuakata_Eco-Park_ZKHR7ZV.jpg",
+    "photo_2": "static/images/sun-rise-at-kuakata_1fg35XH.jpg",
+    "photo_3": "static/images/prathona.jpg",
+    "photo_4": "",
+    "photo_5": "",
+    "photo_6": "",
+    "created_by": 1
+  }
+},
+{
+  "model": "blog.package",
+  "pk": 4,
+  "fields": {
+    "name": "পানাম ও মেঘনার পার",
+    "description": "পানাম সিটি ঢাকা শহর থেকে একদম আলাদা এবং অন্য রকম। পুরনো বাড়িগুলো দেখে দিন পার হয়ে যাবে। পৃথিবীর ১০০ টি ধ্বংস প্রায় ঐতিহাসিক শহরের একটি পানাম নগর। ঈসা খাঁ এর আমলে বাংলার রাজধানী পানামনগর। এখানে কয়েক শতাব্দী পুরনো অনেক ভবন রয়েছে, যা বাংলার বার ভূইয়াঁদের ইতিহাসের সাথে সম্পর্কিত।\r\n\r\nওখান থেকে কাছেই মেঘনা নদী। নদীর ওপারে গেলেই দেখবেন কাশফুলে ঘেরা বিস্তৃত মাঠ দেখতে পাবেন। চাইলে পানাম ঘুরা শেষে সেখানেও ঘুরে আসতে পারেন।",
+    "category": 1,
+    "created_at": "2020-03-26T15:34:51.172Z",
+    "updated_at": "2020-03-26T18:53:18.114Z",
+    "From": "Dhaka",
+    "to": "Narayanganj",
+    "price": 750,
+    "price_details": "ঢাকার অদূরে ২৭কি.মি দক্ষিণ-পূর্বে নারায়নগঞ্জ এর খুব কাছে সোনারগাঁতে অবস্থিত এই নগর।ঢাকা থেকে যাতায়াত ব্যবস্থাও সহজ।গুলিস্থান থেকে বাইক নিয়ে চলে আসবেন ‘মোগরাপারা’। সেখান থেকে চলে যাবেন পানামনগরীতে।",
+    "location": "Dhaka",
+    "day": "1 day",
+    "date": "2020-03-26T18:53:18.114Z",
+    "star": 4,
+    "best": true,
+    "main_photo": "static/images/maxresdefault.jpg",
+    "photo_1": "static/images/depositphotos_195430468-stock-photo-bicycle-vendor-waiting-costumers-kuaka_IqbZFNQ.jpg",
+    "photo_2": "static/images/Kuakata_Eco-Park_BMuZIBY.jpg",
+    "photo_3": "static/images/sun-rise-at-kuakata_EhXtEG5.jpg",
+    "photo_4": "",
+    "photo_5": "",
+    "photo_6": "",
+    "created_by": 1
+  }
+},
+{
+  "model": "blog.package",
+  "pk": 5,
+  "fields": {
+    "name": "বালিয়াটি জমিদার বাড়ি",
+    "description": "বালিয়াটি জমিদার বাড়ি বাংলাদেশের সবচেয়ে বড় জমিদারবাড়িগুলোর একটি। ঢাকা জেলা সদর থেকে ৩৫ কিলোমিটার দূরে সাটুরিয়া উপজেলার বালিয়াটি গ্রামে অবস্থিত।মোট ৭ টি স্থাপনা নিয়ে এই জমিদার বাড়ি অবস্থিত। জমিদার বাড়ির পুরটাই মনোরম পরিবেশে ঘেরা।",
+    "category": 4,
+    "created_at": "2020-03-26T15:37:55.084Z",
+    "updated_at": "2020-03-28T07:39:48.652Z",
+    "From": "Dhaka",
+    "to": "Manikganj",
+    "price": 1000,
+    "price_details": "ঢাকার গাবতলী থেকে মানিকগঞ্জ এর রাস্তা দিয়ে এগিয়ে যেতে হবে। সাটুরিয়া পৌঁছে সেখান থেকে যেতে হবে জমিদার বাড়ির দিকে।\r\nবালিয়াটি জমিদার বাড়ি রোববার পূর্ণদিবস আর সোমবার অর্ধদিবস বন্ধ থাকে। অন্যান্য সরকারি ছুটির দিনগুলোতেও বন্ধ থাকে।\r\nজমিদার বাড়িতে প্রবেশের জন্য টিকেটের মূল্য জন প্রতি ১০টাকা।",
+    "location": "Dhaka",
+    "day": "3 day",
+    "date": "2020-03-28T07:39:48.652Z",
+    "star": 0,
+    "best": false,
+    "main_photo": "static/images/maxresdefault_1.jpg",
+    "photo_1": "static/images/maxresdefault_dnRGfvn.jpg",
+    "photo_2": "static/images/cover-25_ck2EJPt.jpg",
+    "photo_3": "static/images/sun-rise-at-kuakata_2ZqQmTO.jpg",
+    "photo_4": "",
+    "photo_5": "",
+    "photo_6": "",
+    "created_by": 1
+  }
+},
+{
+  "model": "hotel.location",
+  "pk": 1,
+  "fields": {
+    "name": "Mirpur",
+    "created_to": "2020-03-20T15:09:45.948Z",
+    "updated_to": "2020-03-20T15:09:45.948Z"
+  }
+},
+{
+  "model": "hotel.location",
+  "pk": 2,
+  "fields": {
+    "name": "Gulsan",
+    "created_to": "2020-03-20T16:38:48.813Z",
+    "updated_to": "2020-03-20T16:38:48.813Z"
+  }
+},
+{
+  "model": "hotel.location",
+  "pk": 3,
+  "fields": {
+    "name": "Banani",
+    "created_to": "2020-03-20T16:58:19.261Z",
+    "updated_to": "2020-03-20T16:58:19.261Z"
+  }
+},
+{
+  "model": "hotel.location",
+  "pk": 4,
+  "fields": {
+    "name": "Airport",
+    "created_to": "2020-03-21T06:00:40.044Z",
+    "updated_to": "2020-03-21T06:00:40.044Z"
+  }
+},
+{
+  "model": "hotel.room_type",
+  "pk": 1,
+  "fields": {
+    "name": "Single",
+    "created_to": "2020-03-20T15:09:31.981Z",
+    "updated_to": "2020-03-20T15:09:31.981Z"
+  }
+},
+{
+  "model": "hotel.room_type",
+  "pk": 2,
+  "fields": {
+    "name": "Double",
+    "created_to": "2020-03-20T16:38:26.060Z",
+    "updated_to": "2020-03-20T16:38:26.060Z"
+  }
+},
+{
+  "model": "hotel.room_type",
+  "pk": 3,
+  "fields": {
+    "name": "Deluxe",
+    "created_to": "2020-03-20T16:58:40.149Z",
+    "updated_to": "2020-03-20T16:58:40.149Z"
+  }
+},
+{
+  "model": "hotel.hotel",
+  "pk": 1,
+  "fields": {
+    "name": "Grand Prince",
+    "description": "Grand Prince Hotel in Dhaka Bangladesh offers Comfortable single, deluxe king, super deluxe, Executive twin, Suite and presidential Suite Air conditioned rooms.",
+    "price": 5000,
+    "price_details": "Comfortable Hotel Rooms\r\nThe Grand Prince Hotel Dhaka offers tasteful rooms and suites with internet, worktable, sofa, fan, self controlled air-conditioning, international dialing capability landlines, and remote controlled local and satellite television amenities. Our rooms are designed specially to ensure your comfortable and pleasurable stay in Dhaka. To reservations, please Contact Us specifying your time of arrival and departure as well as your desired accommodation.",
+    "location": 1,
+    "location_details": "Paradise Plaza, Com. Plot # 6 and 11, Mirpur - 1, Dhaka 1216",
+    "day": "per night",
+    "member": 3,
+    "room_type": 1,
+    "star": 3,
+    "best": true,
+    "review_int": "7.2",
+    "review_str": "Good",
+    "main_photo": "hotel/2020/03/20/1b8355f7a86038b15c690f3aa0edace7.jpg",
+    "photo_1": "hotel/2020/03/20/844_0780_2_1400x1100.jpg",
+    "photo_2": "hotel/2020/03/20/banr1.png",
+    "photo_3": "hotel/2020/03/20/Club-Deluxe-King-Room-Grand-Prince-Hotel-Takanawa-Tokyo-180816-1.jpg",
+    "photo_4": "hotel/2020/03/20/postslider3.jpg",
+    "photo_5": "hotel/2020/03/20/slide4-1.jpg",
+    "photo_6": "hotel/2020/03/20/img02.jpg",
+    "is_published": true,
+    "list_date": "2020-03-20T21:09:51Z"
+  }
+},
+{
+  "model": "hotel.hotel",
+  "pk": 2,
+  "fields": {
+    "name": "InterContinental Hotels & Resorts",
+    "description": "Bringing modern elegance charm to Bangladesh’s most cosmopolitan city, InterContinental Dhaka features 226 luxurious bedrooms Private Parking,Car Parking and suites, swimming pool.",
+    "price": 8500,
+    "price_details": "1 King Bed Executive Room\r\nRelax in our plush room decked with triple windows & sunshine, comes with WIFI ergonomic work area, 49 inch screen & a refreshing shower. Selection of pillows add comfort to your good night's sleep.....\r\n\r\n1 King Bed Deluxe Room\r\nRelax in our plush room with free WIFI. Stay juvenile with ergonomic work area, 49 inch screen & a refreshing shower. Selection of pillows add comfort to your good night's sleep.",
+    "location": 2,
+    "location_details": "1 Minto Road , GPO Box 504 : Dhaka ,1000, Bangladesh",
+    "day": "per night",
+    "member": 2,
+    "room_type": 2,
+    "star": 4,
+    "best": true,
+    "review_int": "9.5",
+    "review_str": "Very Good",
+    "main_photo": "hotel/2020/03/20/intercontinental-dhaka-5919572575-2x1.jpg",
+    "photo_1": "hotel/2020/03/20/inter-continental2.jpg",
+    "photo_2": "hotel/2020/03/20/intercontinental-dhaka-5896553258-2x1.jpg",
+    "photo_3": "hotel/2020/03/20/intercontinental-dhaka-5955102527-4x3_1.jpg",
+    "photo_4": "hotel/2020/03/20/xxl_153096082.jpg",
+    "photo_5": "hotel/2020/03/20/intercontinental-dhaka-5970040884-2x1.jpg",
+    "photo_6": "hotel/2020/03/20/intercontinental-dhaka-5970040480-2x1.png",
+    "is_published": true,
+    "list_date": "2020-03-20T22:39:03Z"
+  }
+},
+{
+  "model": "hotel.hotel",
+  "pk": 3,
+  "fields": {
+    "name": "Amari Dhaka",
+    "description": "Understated and unassuming, Amari Dhaka is complemented by the colours and rhythms of the local setting. Offering warm and friendly spaces and impeccable service by our dedicated team, we welcome you to our hotel, your gateway to the vibrant capital of Bangladesh.There are Smoking Area,Pet Friendly etc.",
+    "price": 9563,
+    "price_details": "Highlights:40-inch LED TV, rain shower, free Wi-FiApprox. Room Size:29-33 square metresMaximum Adults:2 adultsBed Type:QueenConnecting Rooms....Modern and incredibly comfortable, Superior rooms are ideal when you’re in Dhaka for a business trip or to explore the city. Our Superior rooms offer convenient amenities including 40-inch LED TVs, free Wi-Fi and rain showers.",
+    "location": 2,
+    "location_details": "47, Road No 41, Gulshan-2, Dhaka City, Dhaka Division, Bangladesh 1212",
+    "day": "per night",
+    "member": 2,
+    "room_type": 2,
+    "star": 4,
+    "best": false,
+    "review_int": "8.5",
+    "review_str": "Very Good",
+    "main_photo": "hotel/2020/03/20/ec29d43c7fe411e6a61302755708f0b3.jpg",
+    "photo_1": "hotel/2020/03/20/intercontinental-dhaka-5896553258-2x1_B3sXhNh.jpg",
+    "photo_2": "hotel/2020/03/20/intercontinental-dhaka-5955102527-4x3_1_68dlduE.jpg",
+    "photo_3": "hotel/2020/03/20/intercontinental-dhaka-5970040884-2x1_Q8xHcxq.jpg",
+    "photo_4": "hotel/2020/03/20/xxl_153096082_9gcmrK5.jpg",
+    "photo_5": "",
+    "photo_6": "",
+    "is_published": true,
+    "list_date": "2020-03-20T22:49:56Z"
+  }
+},
+{
+  "model": "hotel.hotel",
+  "pk": 4,
+  "fields": {
+    "name": "The Raintree Dhaka",
+    "description": "Positioned in the vibrant & growing   & within a  international restaurants & shopping mals, the Raintree is ideal pick for corporate and expatriates.There Wheelchair Accessible.",
+    "price": 9732,
+    "price_details": "One of our top picks in Dhaka.Featuring a Rooftop Infinity swimming pool and fitness center, The Raintree Dhaka is located in Dhaka, 300 m from AIUB. Guests can enjoy the on-site multi-cuisine restaurant.\r\n\r\nEach room has a flat-screen TV with satellite channels. Certain rooms include a seating area to relax in after a busy day. You will find a kettle in the room. Rooms include a private bathroom equipped with a shower. Extras include bathrobes, slippers and free toiletries.\r\n\r\nYou will find a 24-hour front desk at the property. Free airport shuttle can be arranged.\r\n\r\nSoutheast University is 400 m from The Raintree Dhaka, while Embassy of Spain is 400 m away. Shah Jalal International Airport is 3.1 mi from the property.\r\n\r\nCouples in particular like the location – they rated it 8.0 for a two-person trip.\r\n\r\nThis property is also rated for the best value in Dhaka! Guests are getting more for their money when compared to other properties in this city.\r\n\r\nWe speak your language!\r\n\r\nThe Raintree Dhaka has been welcoming Booking.com guests since Apr 5, 2017",
+    "location": 3,
+    "location_details": "Plot No.49, Road No 27, Block-K, Banani,DHAKA,BANGLADESH",
+    "day": "per night",
+    "member": 3,
+    "room_type": 3,
+    "star": 4,
+    "best": true,
+    "review_int": "8.6",
+    "review_str": "Good",
+    "main_photo": "hotel/2020/03/20/1803443_17011013130050224470.jpg",
+    "photo_1": "hotel/2020/03/20/96748411.jpg",
+    "photo_2": "hotel/2020/03/20/unnamed.jpg",
+    "photo_3": "hotel/2020/03/20/intercontinental-dhaka-5896553258-2x1_coM6hZ2.jpg",
+    "photo_4": "",
+    "photo_5": "",
+    "photo_6": "",
+    "is_published": true,
+    "list_date": "2020-03-20T22:58:54Z"
+  }
+},
+{
+  "model": "hotel.hotel",
+  "pk": 5,
+  "fields": {
+    "name": "Radisson",
+    "description": "Radisson Hotels is an international hotel, it operates the brands Radisson Blu, Radisson Red, Radisson Collection, Country Inn & Suites, and Park Inn by Radisson among others.pet Friendly,Car Parking,Wireless Internet,Private Parking,Smoking Area,Pool",
+    "price": 17589,
+    "price_details": "Package includes:\r\n- Accommodation for 1 or 2 persons (Depending on the Package)\r\n- Buffet Breakfast for 1 or 2 persons at Water Garden Brasserie (Depending on the Package)\r\n- One hour Thai massage for 1 or 2 persons per day in The Sundaree Spa (Depending on the Package)",
+    "location": 4,
+    "location_details": "BAF Airport Rd, Dhaka 1206",
+    "day": "per night",
+    "member": 2,
+    "room_type": 2,
+    "star": 5,
+    "best": true,
+    "review_int": "9.8",
+    "review_str": "Very Good",
+    "main_photo": "hotel/2020/03/21/16256-113891-f63612826_3XL.jpg",
+    "photo_1": "hotel/2020/03/21/Radisson-Blu-Water-Garden-Hotel-Dhaka-635755839045137437_2.jpg",
+    "photo_2": "hotel/2020/03/21/Radisson_Hotel_Apartments_Delta_Istanbul_Esenyurt.jpg",
+    "photo_3": "hotel/2020/03/21/intercontinental-dhaka-5970040884-2x1.jpg",
+    "photo_4": "hotel/2020/03/21/cropRadisson-Blu-Front-entrance.jpg",
+    "photo_5": "hotel/2020/03/21/intercontinental-dhaka-5970040480-2x1.png",
+    "photo_6": "hotel/2020/03/21/intercontinental-dhaka-5955102527-4x3_1.jpg",
+    "is_published": true,
+    "list_date": "2020-03-21T11:58:07Z"
+  }
+},
+{
+  "model": "contact.person",
+  "pk": 4,
+  "fields": {
+    "name": "Shamsujoha Sumon",
+    "email": "sumon@gmail.com",
+    "subject": "Revew About This Website",
+    "message": "This is awsome page i have ever seen.this is wander full site."
+  }
+},
+{
+  "model": "contact.person",
+  "pk": 5,
+  "fields": {
+    "name": "Mubashira Megh",
+    "email": "megh@gmail.com",
+    "subject": "About website",
+    "message": "wow this is wanderfull website."
+  }
+},
+{
+  "model": "contact.person",
+  "pk": 6,
+  "fields": {
+    "name": "Tour Bazz",
+    "email": "tourbazz@gmail.com",
+    "subject": "About Admin Site",
+    "message": "This is Wanderfull Site we made it."
+  }
+}
+]
