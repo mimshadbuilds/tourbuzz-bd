@@ -1,4 +1,5 @@
 :root {
+    color-scheme: light;
     --admin-plum: #31124b;
     --admin-plum-dark: #241036;
     --admin-orange: #fa9e1b;
@@ -7,6 +8,10 @@
     --admin-border: #e8e6ee;
     --admin-surface: #fff;
     --admin-background: #f6f5f9;
+}
+
+html[data-theme="dark"] {
+    color-scheme: light;
 }
 
 body {
@@ -237,6 +242,57 @@ a:hover {
     font-size: 13px;
 }
 
+#nav-sidebar {
+    border-right-color: var(--admin-border);
+    background: #fff;
+}
+
+#nav-sidebar .module {
+    margin: 10px;
+    border: 1px solid var(--admin-border);
+    border-radius: 12px;
+    background: #fff;
+}
+
+#nav-sidebar .module caption {
+    padding: 12px 14px;
+}
+
+#nav-sidebar .module th,
+#nav-sidebar .module td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #f0eef3;
+    background: #fff;
+    color: var(--admin-ink);
+}
+
+#nav-sidebar .module tr:nth-child(even) th,
+#nav-sidebar .module tr:nth-child(even) td {
+    background: #faf9fc;
+}
+
+#nav-sidebar .module th a,
+#nav-sidebar .module th a:link,
+#nav-sidebar .module th a:visited {
+    color: var(--admin-ink);
+    font-size: 13px;
+}
+
+#nav-sidebar .module th a:hover {
+    color: #8c4ab8;
+}
+
+#nav-sidebar .module .current-model th,
+#nav-sidebar .module .current-model td {
+    background: #f0e8f6;
+}
+
+#nav-filter {
+    border-color: var(--admin-border);
+    background: #fff;
+    color: var(--admin-ink);
+}
+
 caption,
 thead th {
     background: #f7f5fa;
@@ -285,17 +341,32 @@ input[type="submit"].default:hover,
     color: #281a10;
 }
 
-input,
-textarea,
-select,
-.vTextField {
-    border-color: #dedbe6;
-    border-radius: 7px;
+#content-main .form-row {
+    border-bottom-color: var(--admin-border);
+    background: #fff;
+    color: var(--admin-ink);
 }
 
-input:focus,
-textarea:focus,
-select:focus {
+#content-main .form-row label,
+#content-main .aligned label,
+#content-main .required label,
+#content-main label.required {
+    color: var(--admin-ink);
+}
+
+#content-main input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]):not([type="button"]),
+#content-main textarea,
+#content-main select {
+    border-color: #dedbe6;
+    border-radius: 7px;
+    background-color: #fff;
+    color: var(--admin-ink);
+    color-scheme: light;
+}
+
+#content-main input:focus,
+#content-main textarea:focus,
+#content-main select:focus {
     border-color: #8c4ab8;
     box-shadow: 0 0 0 3px rgb(140 74 184 / 12%);
     outline: 0;
