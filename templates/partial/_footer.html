@@ -1,5 +1,54 @@
 	<!-- Footer -->
 {% load static %}
+	<style>
+		.footer_quote {
+			position: relative;
+			margin: 18px 0 20px;
+			padding: 18px 16px 16px 20px;
+			border: 1px solid rgba(250, 158, 27, 0.28);
+			border-left: 3px solid #fa9e1b;
+			border-radius: 4px 14px 14px 4px;
+			background: linear-gradient(135deg, rgba(255, 255, 255, 0.09), rgba(255, 255, 255, 0.025));
+			box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+			color: rgba(255, 255, 255, 0.88);
+			font-size: 13px;
+			font-style: italic;
+			font-weight: 400;
+			line-height: 1.65;
+		}
+		.footer_quote::before {
+			position: absolute;
+			top: 5px;
+			right: 12px;
+			color: rgba(250, 158, 27, 0.45);
+			content: "“";
+			font-family: Georgia, serif;
+			font-size: 46px;
+			font-style: normal;
+			line-height: 1;
+		}
+		.footer_quote_line {
+			display: block;
+			margin-top: 10px;
+		}
+		.footer_quote_line:first-child {
+			margin-top: 0;
+		}
+		.footer_quote_attribution {
+			display: inline-block;
+			color: #fa9e1b;
+			font-size: 11px;
+			font-style: normal;
+			font-weight: 600;
+			white-space: nowrap;
+		}
+		@media (max-width: 767px) {
+			.footer_quote {
+				padding: 16px 14px 14px 17px;
+				font-size: 12px;
+			}
+		}
+	</style>
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
@@ -11,12 +60,12 @@
 							<div class="logo_container footer_logo">
 								<div class="logo"><a href="#"><img src="{% static 'images/logo.png' %}" alt="">Tourbazz</a></div>
 							</div>
-							<p class="footer_about_text align-content-center">
-                                &#9758; “Live with no excuses and travel with no regrets” ~ Oscar Wilde. . . . .
-
-                                 “We travel not to escape life but for life not to escape us”....
-                                 “People don't take trips, trips take people.”....
-                                 “Don't Quit Your Day Dream.”.. &#9969; </p>
+							<blockquote class="footer_about_text footer_quote">
+								<span class="footer_quote_line">“Live with no excuses and travel with no regrets” <span class="footer_quote_attribution">— Oscar Wilde</span></span>
+								<span class="footer_quote_line">“We travel not to escape life but for life not to escape us”</span>
+								<span class="footer_quote_line">“People don't take trips, trips take people.”</span>
+								<span class="footer_quote_line">“Don't Quit Your Day Dream.” ⛱</span>
+							</blockquote>
 							<ul class="footer_social_list">
 								<li class="footer_social_item"><a href="#"><i class="fa fa-pinterest"></i></a></li>
 								<li class="footer_social_item"><a href="#"><i class="fa fa-facebook-f"></i></a></li>
@@ -117,4 +166,3 @@
 			</div>
 		</div>
 	</footer>
-
