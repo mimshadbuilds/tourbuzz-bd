@@ -275,9 +275,12 @@ $(document).ready(function()
 
 	*/
 
-	function initGoogleMap()
-	{
-		var myLatlng = new google.maps.LatLng(36.132229, -5.351153);
+function initGoogleMap()
+{
+	var mapDiv = document.getElementById('map');
+	if (!mapDiv) return;
+	
+	var myLatlng = new google.maps.LatLng(36.132229, -5.351153);
     	var mapOptions = 
     	{
     		center: myLatlng,
